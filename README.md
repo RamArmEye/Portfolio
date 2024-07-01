@@ -1,5 +1,5 @@
 # Portfolio
-Please see below my journey  and prjects created during this course
+Please see below my journey  and prOjects created during this course
 
 Module 1
 Various tools used:
