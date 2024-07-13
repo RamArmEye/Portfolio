@@ -1,115 +1,150 @@
 <!DOCTYPE html>
-<html>
-    <!--Head-->
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width" />
-        <title>AIdefenderPRO</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio_example.css">
-        
-    </head>
-
-    <!--Body-->
-    <body class="Background">
-        
-        <!--Navbar-->
-        <div class="Navbar">
-            <a class="active" href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#GitHub">GitHub</a>
-            <a href="#Contact">Contact</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Ensures proper scaling for responsive design -->
+    <title>AIdefenderPRO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"><!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/portfolio_example.css"><!-- Link to external stylesheet -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script><!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script><!-- Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script><!-- Bootstrap JS -->
+</head>
+<body class="Background">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">AIdefenderPRO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#GitHub">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <!--Breaks inserted to add space between navbar and the first heading-->
-        <br>
-        <br>
+    <!-- Breaks to add space between navbar and first heading -->
+    <br>
+    <br>
+    <br>
+    <br>
 
-        <!--Background video-->
-        <div id="Home">
-            <video autoplay loop id="Intro_Video">
-                <source src="images/video/introVideo.mp4" type="video/mp4">
-                <!--Display message if video fails to run-->
-                Your browser does not support HTML5 video.
-            </video>
+    <!-- Background video -->
+    <div id="Home">
+        <video id="Intro_Video" autoplay>
+            <source src="images/video/introVideo.mp4" type="video/mp4"><!-- Video source -->
+            Your browser does not support HTML5 video.<!-- Fallback text -->
+        </video>
+        <button id="repeatVideoButton" class="btn btn-primary">Repeat Video</button><!-- Button to repeat video -->
+    </div>
+
+    <!-- Video text -->
+    <div class="Video_Text">
+        <h1 class="white-text">R_S Portfolio</h1>
+        <strong>
+            <p class="center">
+                <q>"Cybersecurity is not just a technical challenge, it's a mindset. It's about understanding that protecting our digital world is safeguarding our future."
+                </q>
+                <br> 
+                <br> My name is R_S. Welcome to my portfolio website.
+                <br>
+                <br> Thank you for stopping by and enjoy! 
+            </p>
+        </strong>
+    </div>
+
+    <!-- About section -->
+    <div class="row" id="About">
+        <!-- Left column -->
+        <div class="col-md-6 col-sm-12">
+            <img src="images/thumbnail_2.png" alt="try other browser to see picture">
         </div>
-
-        <!--Video text-->
-        <div class="Video_Text">
-            <h1 class="white-text">R_S Portfolio</h1>
-            <strong>
-                <p class="center">
-                    <q>"Cybersecurity is not just a technical challenge, it's a mindset. It's about understanding that protecting our digital world is safeguarding our future."
-                    </q>
-                    <br> 
-                    <br> My name is R_S. Welcome to my portfolio website.
-                    <br>
-                    <br> Thank you for stopping by and enjoy! 
-                </p>
-            </strong>
-        </div>
-
-        <!--About section-->
-        <div class="Row" id="About">
-            <!--Left column-->
-            <div class="Column_2">
-                <img src="images/thumbnail_2.png" alt="try other browser to see picture">
-            </div>
         <!-- Right column -->
-        <div class="Column_1">
-            <h1>Folow me on </h1>
-                 <p>
-         <br>
-             <a href="https://www.linkedin.com/in/ram-siu-aa8ba9274" target="_blank">Linkedin</a>’
-         <br>
-         </p>
+        <div class="col-md-6 col-sm-12">
+            <h1>Follow me on </h1>
+            <p>
+                <br>
+                <a href="https://linkedin.com/in/r-a-m-s-a8b533119" target="_blank">LinkedIn</a>
+                <br>
+            </p>
         </div>
+    </div>
 
-
-
-        <!--GitHub section-->
-        <div class="Row" id="GitHub">
-            <!--Left column-->
-            <div class="Column_1">
-                <h1>GitHub</h1>
-                <p>
-                    You can view my coding projects on my GitHub profile here:
-                    <br>
-                    <p class="center"><a href="https://github.com/RamArmEye" target="_blank">R S Github</a></p>
-                </p>
-            </div>
-            <!--Right column-->
-            <div class="Column_2">
-                <a href="https://github.com/RamArmEye" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
-            </div>
+    <!-- GitHub section -->
+    <div class="row" id="GitHub">
+        <!-- Left column -->
+        <div class="col-md-6 col-sm-12">
+            <h1>GitHub</h1>
+            <p>
+                You can view my coding projects on my GitHub profile here:
+                <br>
+                <p class="center"><a href="https://github.com/RamArmEye" target="_blank">R S Github</a></p>
+            </p>
         </div>
-
-        <!--Contact section-->
-        <div class="Row" id="Contact">
-            <!--Contact image, left column-->
-            <div class="Column_2 Column_tall">
-                <img src="images/thumbnail_8.png" alt="Contact_Image">
-            </div>
-            <!--Contact form, right column-->
-            <div class="Column_1 Column_tall">
-                <h1>Contact</h1>
-                <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
-                    <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
-                    <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-                    <label>Message:</label>
-                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
-                        <input type="submit" value="SUBMIT">
-                </form>
-            </div>
+        <!-- Right column -->
+        <div class="col-md-6 col-sm-12">
+            <a href="https://github.com/RamArmEye" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
         </div>
+    </div>
 
-        <!--Footer section-->
-        <!-- FOOTER -->
-<div id="footer">
-    www.aidefenderpro.co.uk &nbsp;&nbsp;©copy 2024
-</div>
-<!-- END FOOTER -->
-    </body>
+    <!-- Contact section -->
+    <div class="row" id="Contact">
+        <!-- Contact image, left column -->
+        <div class="col-md-6 col-sm-12 Column_tall">
+            <img src="images/thumbnail_7.png" alt="Contact_Image">
+        </div>
+        <!-- Contact form, right column -->
+        <div class="col-md-6 col-sm-12 Column_tall">
+            <h1>Contact</h1>
+            <!-- Contact form -->
+            <form action="" method="POST">
+                <label>Name:</label>
+                <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                <textarea id="Message" name="Message" placeholder="Please write your message here"></textarea>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer id="footer">
+        www.aidefenderpro.co.uk &nbsp;&nbsp;©copy 2024
+    </footer>
+
+    <!-- JavaScript to handle video play and repeat -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var video = document.getElementById('Intro_Video');
+            var button = document.getElementById('repeatVideoButton');
+
+            video.addEventListener('ended', function () {
+                button.style.display = 'block';
+            });
+
+            button.addEventListener('click', function () {
+                video.currentTime = 0;
+                video.play();
+                button.style.display = 'none';
+            });
+
+            button.style.display = 'none'; // Hide the button initially
+        });
+    </script>
+</body>
 </html>
