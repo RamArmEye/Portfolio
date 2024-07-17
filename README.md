@@ -26,7 +26,7 @@ https://github.com/RamArmEye/HTML-and-CSS-Projects/tree/main/One-page%20assignme
 https://github.com/RamArmEye/HTML-and-CSS-Projects/tree/main/Project
 Improved this website with CSS changing font size, borders etc.
 
-Modul 4
+Module 4
 Bootstrap is an extremely popular HTML, CSS, and JavaScript framework.
 Bootstrap project
 https://github.com/RamArmEye/HTML-and-CSS-Projects/tree/main/bootstrap4_project
@@ -39,7 +39,7 @@ http://aidefenderpro.co.uk/
 Modified css and html code from an example. Current layout is not perfect when opened on mobile browser.
 
 
-JavaScript Course
+  <h1>JavaScript Course</h1>
 
 Module 1
 What is JavaScript?
