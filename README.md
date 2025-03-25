@@ -81,3 +81,28 @@ https://github.com/RamArmEye/Portfolio
 
 https://aidefenderpro.co.uk/
 
+2024-2025 
+
+FinalAssignmentSubmission
+https://github.com/RamArmEye/FinalAssignmentSubmission.git
+
+### Summary of *C# and .NET Framework – Part 1 & 2* Courses:
+
+**Part 1:**
+- Introduces the **C# programming language** and **.NET Framework**.
+- Focuses on using C# with .NET to build **back-end web applications**.
+- Establishes foundational knowledge for C# and .NET development.
+
+**Part 2:**
+- Builds on Part 1 to **advance C# programming skills**.
+- Focuses on building **practical web applications** using **ASP.NET MVC**.
+- Includes **hands-on learning** through tutorials, challenges, and assignments to reinforce knowledge.
+-  
+Links to the project completed
+https://github.com/RamArmEye/The-Tech-Academy-Basic-C-Sharp-Projects.git
+https://github.com/RamArmEye/ConsoleApplicationAssignment.git
+https://github.com/RamArmEye/MVC.git
+https://github.com/RamArmEye/.netBasics.git
+
+
+
